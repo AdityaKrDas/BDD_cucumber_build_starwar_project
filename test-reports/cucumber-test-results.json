@@ -1,0 +1,465 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Search for character (person)",
+    "line": 1,
+    "id": "search-for-character-(person)",
+    "tags": [],
+    "uri": "e2e/features/person.feature",
+    "elements": [
+      {
+        "id": "search-for-character-(person);search-for-a-valid-character/person",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search for a valid character/person",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for a person",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Character details are displayed as expected",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1093000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-character-(person);search-for-invalid-character/person",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Search for invalid character/person",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 230000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search for invalid character",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be able to see “Not found” in the results",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 539000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Search for planet",
+    "line": 1,
+    "id": "search-for-planet",
+    "tags": [],
+    "uri": "e2e/features/planet.feature",
+    "elements": [
+      {
+        "id": "search-for-planet;search-a-valid-planet",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Search a valid planet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 382000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I search for planet name",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:53"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 189000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Planet details are displayed as expected",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2829000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "search-for-planet;search-for-invalid-planet",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "Search for invalid planet",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 9,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 412000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I search for invalid planet",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 183000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I should be able to see “Not found” message in the results",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:80"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 432000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "keyword": "Feature",
+    "name": "Additional flows",
+    "line": 2,
+    "id": "additional-flows",
+    "tags": [],
+    "uri": "e2e/features/search-additional.feature",
+    "elements": [
+      {
+        "id": "additional-flows;clear-the-“search-form”-and-hit-the-search-button-again",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "clear the “Search form” and hit the Search button again",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 390000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I clear text box from above scenario",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "I click on Search button",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:94"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 5002000000,
+              "error_message": "Error: function timed out, ensure the promise resolves within 5000 milliseconds\n    at Timeout._onTimeout (/Users/e52/Downloads/qa-test-assessment-master/node_modules/cucumber/src/user_code_runner.js:61:18)\n    at listOnTimeout (internal/timers.js:549:17)\n    at processTimers (internal/timers.js:492:7)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I should get an empty result list previous search results are removed",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:100"
+            },
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "additional-flows;searched-for-a-planet-then-switch-to-people-and-search,-you-should-get-a-“not-found”-in-the-results",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Searched for a planet then switch to People and search, you should get a “Not found” in the results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I search by selecting people radio btn, clear and then provide planet name in text box and search",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:107"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3753000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "I should get “Not found” in search results",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:114"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 538000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "additional-flows;search-for-person-\"darth\"-to-see-multiple-results",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Search for person \"Darth\" to see multiple results",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "I navigate to \"localhost\"",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:13"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 388000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "I search for person having multiple search results",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:122"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 187000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "More than one results are listed",
+            "match": {
+              "location": "e2e/steps/app.steps.ts:129"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 741000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/@serenity-js/cucumber/src/listeners/legacy/cucumber-4.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
