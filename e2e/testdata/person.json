@@ -1,1 +1,41 @@
+[{
+    "name": "Luke Skywalker",
+    "gender":  "male",
+    "birthYear": "19BBY",
+    "eyeColor": "blue",
+    "skinColor": "fair"
 
+
+},
+{
+    "name": "Leia Organa",
+    "gender":  "female",
+    "birthYear": "19BBY",
+    "eyeColor": "brown",
+    "skinColor": "light"
+},
+{
+    "name": "r2",
+    "gender":  "n/a",
+    "birthYear": "33BBY",
+    "eyeColor": "red",
+    "skinColor": "white, blue"
+},
+{
+    "name": "Aditya"
+},
+{
+    "name": "Darth",
+    "gender":  "male",
+    "birthYear": "41.9BBY",
+    "eyeColor": "yellow",
+    "skinColor": "white"
+},
+{
+    "name": "Darth",
+    "gender":  "male",
+    "birthYear": "54BBY",
+    "eyeColor": "yellow",
+    "skinColor": "red"
+}
+]
